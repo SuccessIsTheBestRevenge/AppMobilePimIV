@@ -67,29 +67,29 @@
 
     <View
         android:id="@+id/Container"
-        style="@style/ContainerComponents"
-        android:layout_width="410dp"
-        android:layout_height="547dp"
-
-        android:elevation="30dp"
+        android:layout_width="424dp"
+        android:layout_height="100dp"
+        android:background="@color/white"
+        android:elevation="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ViewBackground2"
         app:layout_constraintVertical_bias="1.0" />
 
     <View
-        android:id="@+id/view"
-        android:layout_width="420dp"
-        android:layout_height="22dp"
-        android:background="@color/white"
+        android:id="@+id/ContainerChat"
+        style="@style/ContainerComponents"
+        android:layout_width="410dp"
+        android:layout_height="487dp"
+
+        android:elevation="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/Container"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toBottomOf="@+id/ViewBackground2"
+        app:layout_constraintVertical_bias="0.795" />
 
     <TextView
         android:id="@+id/textView2"
@@ -106,10 +106,9 @@
         android:typeface="normal"
         app:layout_constraintBottom_toTopOf="@+id/Container"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/MenuLogo"
-        app:layout_constraintVertical_bias="0.182" />
+        app:layout_constraintVertical_bias="0.065" />
 
     <TextView
         android:id="@+id/textView5"
@@ -128,6 +127,25 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.312" />
+        app:layout_constraintVertical_bias="0.316" />
+
+    <EditText
+        android:id="@+id/InputProblema"
+        style="@style/EditTextBlack"
+        android:layout_width="357dp"
+        android:layout_height="60dp"
+        android:elevation="30dp"
+        android:fontFamily="@font/afacad"
+        android:hint="Descreva seu problema"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/black"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.974" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

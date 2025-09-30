@@ -21,5 +21,11 @@
         <item name="android:background">@drawable/button</item>
     </style>
 
+    <style name="EditTextBlack">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/edit_white</item>
+    </style>
+
 
 </resources>
