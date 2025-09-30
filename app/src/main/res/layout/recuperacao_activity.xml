@@ -76,7 +76,7 @@
 
 
     <EditText
-        android:id="@+id/editRa"
+        android:id="@+id/editRecuperacaoRa"
         style="@style/EditText"
         android:layout_width="357dp"
         android:layout_height="60dp"
@@ -120,7 +120,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/editRa"
+        app:layout_constraintTop_toBottomOf="@id/editRecuperacaoRa"
         app:layout_constraintVertical_bias="0.237" />
 
     <ImageView
@@ -151,7 +151,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/editRa"
+        app:layout_constraintTop_toBottomOf="@id/editRecuperacaoRa"
         app:layout_constraintVertical_bias="0.427" />
 
     <ImageView
@@ -181,7 +181,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/editRa"
+        app:layout_constraintTop_toBottomOf="@id/editRecuperacaoRa"
         app:layout_constraintVertical_bias="0.617" />
 
     <ImageView
@@ -211,7 +211,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/editRa"
+        app:layout_constraintTop_toBottomOf="@id/editRecuperacaoRa"
         app:layout_constraintVertical_bias="0.046" />
 
     <ImageView
